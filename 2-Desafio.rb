@@ -10,7 +10,7 @@ puts "La cantidad de usuarios premiun es : #{usuarios_p}"
 puts "La cantidad de usuarios gratuitos es: #{usuarios_g}"
 puts "La cantidad de gastos es: #{gastos}"
 
-
+utilidad=(precio_venta*(usuarios_p*precio_venta*2)-gastos)
 
 if utilidad > 0 
     puts utilidad
